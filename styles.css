@@ -1,0 +1,144 @@
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.later {
+    background-color: blue;
+    color: white;
+}
+
+/* About styling */
+.sidebar {
+    float: left;
+    height: 100vh;
+    width: 200px;
+    background-color: #faf0e6;
+    color: black;
+    padding: 20px;
+    /*Sectioning the sidebar, vertically*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carousel-item, .carousel-item img {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.main-content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+.top {
+    padding: 10px;
+}
+
+.center {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.bottom {
+    padding: 10px;
+}
+
+ul {
+    list-style-type: "*";
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-indent: 5px;
+}
+
+h1 {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+
+}
+
+h6 {
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
+
+
+.img-over {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.text-section {
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    height: 20%;
+    width: 20%;
+    background-color: #404040;
+    color: #FFFFFF;
+    border-radius: 10px 0px 10px 0px;
+    /* Add other styling as needed */
+}
+
+#carouselExampleControls {
+    width: 100%;
+    height: 100%;
+}
+
+#innerp {
+    position: absolute;
+    height: 20%;
+    width: 17%;
+}
+
+#button {
+    height: 33%;
+    transform: scale(0.5);
+}
+
+#indicator {
+    transform: scale(0.5);
+}
+
+.footer {
+    background-color:#ad764f;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+  }
+
+
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .parent-div {
+    width: 100%;
+    height: 500px;
+    background-color: #0099ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-div > div {
+    display: block;
+}
